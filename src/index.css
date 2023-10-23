@@ -3,9 +3,9 @@
     box-sizing: border-box;
 }
 body {
+    background-image: url("/public/images/fondo.jpg");
     margin:0;
     font-family: 'Nunito', sans-serif;
-    background-image: url("./src/images/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
