@@ -1,7 +1,6 @@
 
 .app{
     width: 100%;
-    
 }
 
 .app__form {
@@ -28,7 +27,7 @@
     width: 100%;
     min-width: 350px;
     max-width: 360px;
-    background-color: white;
+    background-color: rgb(233, 232, 232);
     height: max-content;
     border-radius: 0.7em;
     position: relative;
@@ -59,17 +58,17 @@
     margin-bottom: 0.8em;
 }
 
-.form__tabel {
-    color: rgb(54, 53, 53);
-    padding-left: 1em;
+.form__label {
+    color: rgb(173, 172, 172);
 }
 
 .form__input {
-    padding: 0.4em 0.8em;
+    padding: 0.9em 0.8em;
     width: 100%;
     font-family: inherit;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-bottom: 4px;
+    border: 6px;
 }
 
 .form__item-input {
@@ -86,6 +85,7 @@
     background-color: #555a88;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .app__nav {
@@ -94,7 +94,7 @@
     gap: 1rem;
     align-items: center;
     position: fixed;
-    background-color: rgb(39, 39, 34);
+    background-color: rgb(21, 21, 19);
     color: rgb(255, 255, 255);
 }
 
@@ -146,7 +146,6 @@ span {
 }
 
 .card__container{
-     /* background-color: rgb(247, 243, 243); */
      padding-top: 7rem;
      width: 100%;
      /* height: 100vh; */
@@ -165,9 +164,8 @@ span {
     margin: 8px;
     box-shadow:  5px 5px 10px 1px rgb(105, 102, 102);
     border-radius: 5px;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(21, 21, 19,0.8);
     color:white;
-    margin-bottom: 10px;
 }
 
 .card__name {
@@ -185,7 +183,7 @@ span {
     padding: 5px;
     font-size: 15px;
     border-radius: 5px;
-    background-color: #f8f5f5;
+    background-color: #c7c1c1;
     color: #000;
 
 }
@@ -199,7 +197,21 @@ span {
 
 .body__button {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     flex-direction: column;
     justify-content: center;
+}
+
+.body__button button {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.body__button button:nth-child(1){
+    background-color: rgb(255, 75, 75);
+}
+
+.body__button button:nth-child(2){
+    background-color: rgb(252, 194, 21);
 }

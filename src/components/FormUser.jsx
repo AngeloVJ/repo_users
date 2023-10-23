@@ -51,34 +51,34 @@ const FormUser = ({ createNewUser, updateInfo, updateUserById, handleClose, setU
                         <i className='bx bxs-check-circle bx-burst bx-lg' ></i>
                     </div> :
                     <>
-                        <h2 className='form__title'>Form User</h2>
+                        <h2 className='form__title'>Register User</h2>
                         <div onClick={handleX} className='form__x' >x</div>
                         <div className='form__item'>
                             <label className='form__label' htmlFor="email">Email</label>
                             <div className='form__item-input'>
                                 <i className='bx bx-envelope'></i>
-                                <input className='form__input' placeholder='Ingresa email valido' {...register('email')} type="email" id='email' />
+                                <input className='form__input' placeholder='E-mail' {...register('email')} type="email" id='email' />
                             </div>
                         </div>
                         <div className='form__item'>
                             <label className='form__label' htmlFor="password">Password</label>
                             <div className='form__item-input'>
                                 <i className='bx bx-hide' ></i>
-                                <input className='form__input' placeholder='Cree su contraseña' {...register('password')} type="password" id='password' />
+                                <input className='form__input' placeholder='Password' {...register('password')} type="password" id='password' />
                             </div>
                         </div>
                         <div className='form__item'>
                             <label className='form__label' htmlFor="firstName">First name</label>
                             <div className='form__item-input'>
                                 <i className='bx bx-user-pin' ></i>
-                                <input className='form__input' placeholder='Ingrese primer nombre' {...register('first_name')} type="text" id='firstName' />
+                                <input className='form__input' placeholder='First name' {...register('first_name')} type="text" id='firstName' />
                             </div>
                         </div>
                         <div className='form__item'>
                             <label className='form__label' htmlFor="lastName">Last name</label>
                             <div className='form__item-input'>
                                 <i className='bx bx-user-pin' ></i>
-                                <input className='form__input' placeholder='Ingrese segundo nombre' {...register('last_name')} type="text" id='lastName' />
+                                <input className='form__input' placeholder='Last name' {...register('last_name')} type="text" id='lastName' />
                             </div>
                         </div>
                         <div className='form__item'>
